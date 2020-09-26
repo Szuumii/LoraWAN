@@ -1,0 +1,17 @@
+soft-se.c:113:13:DummyCB	0	static
+soft-se.c:97:23:GetKeyByID	16	static
+soft-se.c:130:30:ComputeCmac.part.0	56	static
+soft-se.c:168:23:SecureElementInit	32	static
+soft-se.c:218:23:SecureElementRestoreNvmCtx	8	static
+soft-se.c:232:7:SecureElementGetNvmCtx	0	static
+soft-se.c:273:23:SecureElementComputeAesCmac	24	static
+soft-se.c:284:23:SecureElementVerifyAesCmac	32	static
+soft-se.c:307:23:SecureElementAesEncrypt	40	static
+soft-se.c:238:23:SecureElementSetKey.part.2	32	static
+soft-se.c:238:23:SecureElementSetKey	8	static
+soft-se.c:341:23:SecureElementDeriveAndStoreKey	40	static
+soft-se.c:377:23:SecureElementRandomNumber	16	static
+soft-se.c:387:23:SecureElementSetDevEui	8	static
+soft-se.c:398:10:SecureElementGetDevEui	0	static
+soft-se.c:403:23:SecureElementSetJoinEui	8	static
+soft-se.c:414:10:SecureElementGetJoinEui	0	static

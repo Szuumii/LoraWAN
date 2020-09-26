@@ -1,0 +1,10 @@
+mlm32l07x01.c:118:10:SX1276GetWakeTime	0	static
+mlm32l07x01.c:345:6:SX1276CheckRfFrequency	0	static
+mlm32l07x01.c:190:6:SX1276SetRfTxPower	16	static
+mlm32l07x01.c:137:6:SX1276IoInit	40	static
+mlm32l07x01.c:170:6:SX1276IoDeInit	40	static
+mlm32l07x01.c:270:6:SX1276SetAntSwLowPower	32	static
+mlm32l07x01.c:162:6:SX1276IoIrqInit	16	static
+mlm32l07x01.c:319:6:SX1276SetAntSw	16	static
+mlm32l07x01.c:123:6:SX1276SetXO	8	static
+mlm32l07x01.c:258:9:SX1276GetPaSelect	0	static
