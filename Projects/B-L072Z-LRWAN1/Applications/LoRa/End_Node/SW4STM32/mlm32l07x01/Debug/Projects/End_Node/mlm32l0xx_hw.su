@@ -1,0 +1,14 @@
+mlm32l0xx_hw.c:132:6:HW_DeInit	8	static
+mlm32l0xx_hw.c:181:6:HW_GpioInit	64	static
+mlm32l0xx_hw.c:227:6:SystemClock_Config	88	static
+mlm32l0xx_hw.c:272:10:HW_GetRandomSeed	0	static
+mlm32l0xx_hw.c:282:6:HW_GetUniqueId	8	static
+mlm32l0xx_hw.c:357:6:HW_AdcInit	8	static
+mlm32l0xx_hw.c:95:6:HW_Init	24	static
+mlm32l0xx_hw.c:395:6:HW_AdcDeInit	8	static
+mlm32l0xx_hw.c:406:10:HW_AdcReadChannel	32	static
+mlm32l0xx_hw.c:294:10:HW_GetTemperatureLevel	16	static
+mlm32l0xx_hw.c:333:10:HW_GetBatteryLevel	8	static
+mlm32l0xx_hw.c:457:6:LPM_EnterStopMode	40	static,ignoring_inline_asm
+mlm32l0xx_hw.c:481:6:LPM_ExitStopMode	16	static,ignoring_inline_asm
+mlm32l0xx_hw.c:519:6:LPM_EnterSleepMode	8	static

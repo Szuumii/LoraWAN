@@ -1,4 +1,0 @@
-command.c:616:13:CMD_GetChar	0	static
-command.c:606:6:CMD_Init	8	static
-command.c:705:6:com_error	8	static
-command.c:634:6:CMD_Process	32	static,ignoring_inline_asm

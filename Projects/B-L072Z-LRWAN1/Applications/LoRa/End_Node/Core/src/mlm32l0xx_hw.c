@@ -107,6 +107,8 @@ void HW_Init(void)
 
     HW_SPI_Init();
 
+    HW_I2C1_Init();
+
     HW_RTC_Init();
 
     TraceInit();

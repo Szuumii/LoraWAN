@@ -82,7 +82,7 @@ extern "C" {
  * When set to 1 the application uses the Over-the-Air activation procedure
  * When set to 0 the application uses the Personalization activation procedure
  */
-#define OVER_THE_AIR_ACTIVATION                            0
+#define OVER_THE_AIR_ACTIVATION                            1
 
 /*!
  * When using ABP activation the MAC layer must know in advance to which server
@@ -101,7 +101,7 @@ extern "C" {
  * IEEE Organizationally Unique Identifier ( OUI ) (big endian)
  * \remark This is unique to a company or organization
  */
-#define IEEE_OUI                                           0x00, 0x00, 0x00
+#define IEEE_OUI                                           0x01, 0x01, 0x01
 
 /*!
  * When set to 1 DevEui is LORAWAN_DEVICE_EUI
@@ -115,7 +115,7 @@ extern "C" {
  *
  * \remark see STATIC_DEVICE_EUI comments
  */
-#define LORAWAN_DEVICE_EUI                                 { IEEE_OUI, 0x00, 0x00, 0x00, 0x00, 0x01 }
+#define LORAWAN_DEVICE_EUI                                 { IEEE_OUI, 0x01, 0x01, 0x01, 0x01, 0x01 }
 
 /*!
  * App/Join server IEEE EUI (big endian)

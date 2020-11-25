@@ -1,8 +1,0 @@
-main.c:186:6:LoraMacProcessNotify	0	static
-main.c:236:13:LORA_McpsDataConfirm	8	static
-main.c:201:13:LORA_TxNeeded	8	static
-main.c:196:13:LORA_ConfirmClass	8	static
-main.c:191:13:LORA_HasJoined	8	static
-main.c:174:13:LoraRxData	8	static
-main.c:211:9:LORA_GetBatteryLevel	8	static
-main.c:114:5:main	8	static,ignoring_inline_asm
