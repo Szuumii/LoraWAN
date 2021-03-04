@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/Crypto/soft-se.o: \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.c \
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.c \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/secure-element.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
@@ -52,8 +52,8 @@ Middlewares/LoRaWAN/Crypto/soft-se.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacMessageTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.h \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Crypto/aes.h \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Crypto/cmac.h \
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Crypto/aes.h \
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Crypto/cmac.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Phy/radio.h
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/secure-element.h:
@@ -160,8 +160,8 @@ Middlewares/LoRaWAN/Crypto/soft-se.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.h:
 
-D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Crypto/aes.h:
+C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Crypto/aes.h:
 
-D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Crypto/cmac.h:
+C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Crypto/cmac.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Phy/radio.h:

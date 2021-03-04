@@ -1,6 +1,6 @@
 Middlewares/LoRaWAN/Mac/LoRaMacAdr.o: \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.c \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h \
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.c \
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
  ../../../LoRaWAN/App/inc/hw_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
@@ -53,9 +53,9 @@ Middlewares/LoRaWAN/Mac/LoRaMacAdr.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/timer.h \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.h
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.h
 
-D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h:
+C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h:
 
@@ -161,4 +161,4 @@ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Mac
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/timer.h:
 
-D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.h:
+C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.h:

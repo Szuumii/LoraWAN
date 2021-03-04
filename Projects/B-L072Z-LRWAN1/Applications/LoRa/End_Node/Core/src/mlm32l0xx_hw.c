@@ -107,7 +107,7 @@ void HW_Init(void)
 
     HW_SPI_Init();
 
-    HW_I2C1_Init();
+//    HW_I2C1_Init();
 
     HW_RTC_Init();
 
@@ -206,6 +206,7 @@ void HW_GpioInit(void)
   __HAL_RCC_GPIOB_CLK_DISABLE();
   __HAL_RCC_GPIOC_CLK_DISABLE();
   __HAL_RCC_GPIOH_CLK_DISABLE();
+
 }
 
 /**
@@ -228,6 +229,7 @@ void SystemClock_Config(void)
 {
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
 
   /* Enable HSE Oscillator and Activate PLL with HSE as source */
   RCC_OscInitStruct.OscillatorType      = RCC_OSCILLATORTYPE_HSI;
@@ -262,6 +264,13 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_I2C1;
+  PeriphClkInit.I2c1ClockSelection = RCC_I2C1CLKSOURCE_PCLK1;
+
+   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+   {
+     Error_Handler();
+   }
 }
 /**
   * @brief This function return a random seed

@@ -60,6 +60,7 @@ void HW_GPIO_Init(GPIO_TypeDef *port, uint16_t GPIO_Pin, GPIO_InitTypeDef *initS
 
   RCC_GPIO_CLK_ENABLE((uint32_t) port);
 
+
   initStruct->Pin = GPIO_Pin ;
 
   HAL_GPIO_Init(port, initStruct);

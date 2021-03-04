@@ -35,7 +35,7 @@
 /*!
  * Defines the application data transmission duty cycle. 5s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            50000
+#define APP_TX_DUTYCYCLE                            10000
 /*!
  * LoRaWAN Adaptive Data Rate
  * @note Please note that when ADR is enabled the end-device should be static
@@ -105,7 +105,7 @@ static void OnTxTimerEvent(void *context);
 static void LoraMacProcessNotify(void);
 
 /* Private variables ---------------------------------------------------------*/
-I2C_HandleTypeDef  hi2c1;
+I2C_HandleTypeDef  hi2c;
 /* load Main call backs structure*/
 static LoRaMainCallback_t LoRaMainCallbacks = { LORA_GetBatteryLevel,
                                                 HW_GetTemperatureLevel,
@@ -154,7 +154,6 @@ int main(void)
 {
   /* STM32 HAL library initialization*/
   HAL_Init();
-  HAL_I2C_Init(&hi2c1);
 
   /* Configure the system clock*/
   SystemClock_Config();
@@ -164,7 +163,7 @@ int main(void)
 
   /* Configure the hardware*/
   HW_Init();
-
+  HW_I2C1_Init(&hi2c);
   /* USER CODE BEGIN 1 */
   /* USER CODE END 1 */
 
@@ -187,6 +186,21 @@ int main(void)
   {
     if (AppProcessRequest == LORA_SET)
     {
+	uint16_t command = 0x100F;
+	uint16_t sensor_data;
+
+		int counter = 0;
+		PRINTF("\nSending Command\n");
+	    HAL_I2C_Master_Transmit(&hi2c, 0x36<<1, &command, sizeof(command), HAL_MAX_DELAY);
+		while(counter < 6000)
+		{
+		  counter++;
+		}
+	    HAL_I2C_Master_Receive(&hi2c, 0x36<<1 | 0x01, &sensor_data, sizeof(sensor_data), HAL_MAX_DELAY);
+		PRINTF("\nData Received\n");
+
+		AppData.BuffSize = snprintf((char *)AppData.Buff, LORAWAN_APP_DATA_BUFF_SIZE,"%d", sensor_data);
+		PRINTF("\nHumidity: %d\n", sensor_data);
       /*reset notification flag*/
       AppProcessRequest = LORA_RESET;
       /*Send*/
@@ -235,7 +249,6 @@ static void LORA_HasJoined(void)
 static void Send(lora_AppData_t *AppData)
 {
   /* USER CODE BEGIN 3 */
-
   TimerInit(&TxLedTimer,OnTimerLedEvent);
   TimerSetValue(&TxLedTimer,1000); // Tx led on for 1s
   LED_On(LED_RED1);
@@ -243,12 +256,9 @@ static void Send(lora_AppData_t *AppData)
 
   AppData->Port = LORAWAN_APP_PORT;
 
-  AppData->BuffSize = snprintf((char *)AppData->Buff, LORAWAN_APP_DATA_BUFF_SIZE,"%d", numbers[nbidx]);
-  if(++nbidx == NB_BUFSIZE)
-	  nbidx = 0;
+  PRINTF("\nSENDING DATA %d", AppData->Buff);
 
-  PRINTF("\nNumber sent: %d\n\n", numbers[nbidx]);
-  LORA_send(AppData, LORAWAN_DEFAULT_CONFIRM_MSG_STATE);
+//  LORA_send(AppData, LORAWAN_DEFAULT_CONFIRM_MSG_STATE);
 
   /* USER CODE END 3 */
 }

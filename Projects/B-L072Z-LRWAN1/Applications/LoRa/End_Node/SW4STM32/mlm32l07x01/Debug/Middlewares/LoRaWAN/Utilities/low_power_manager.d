@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/Utilities/low_power_manager.o: \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/low_power_manager.c \
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/low_power_manager.c \
  ../../../LoRaWAN/App/inc/hw.h ../../../LoRaWAN/App/inc/hw_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \
@@ -50,7 +50,7 @@ Middlewares/LoRaWAN/Utilities/low_power_manager.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/util_console.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/systime.h \
  ../../../LoRaWAN/App/inc/debug.h \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/low_power_manager.h
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/low_power_manager.h
 
 ../../../LoRaWAN/App/inc/hw.h:
 
@@ -160,4 +160,4 @@ Middlewares/LoRaWAN/Utilities/low_power_manager.o: \
 
 ../../../LoRaWAN/App/inc/debug.h:
 
-D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/low_power_manager.h:
+C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/low_power_manager.h:
