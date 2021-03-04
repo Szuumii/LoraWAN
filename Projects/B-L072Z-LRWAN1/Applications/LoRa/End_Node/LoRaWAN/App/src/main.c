@@ -154,7 +154,6 @@ int main(void)
 {
   /* STM32 HAL library initialization*/
   HAL_Init();
-  HAL_I2C_Init(&hi2c1);
 
   /* Configure the system clock*/
   SystemClock_Config();
@@ -189,8 +188,18 @@ int main(void)
     {
       /*reset notification flag*/
       AppProcessRequest = LORA_RESET;
+      uint16_t command = 0x100F;
+	  uint16_t sensor_data;
+
+	  int counter = 0;
+	  HAL_I2C_Master_Transmit(&hi2c1, 0x36<<1, &command, sizeof(command), HAL_MAX_DELAY);
+		while(counter < 6000)
+		{
+			counter++;
+		}
+		HAL_I2C_Master_Receive(&hi2c1, 0x36<<1 | 0x01, &sensor_data, sizeof(sensor_data), HAL_MAX_DELAY);
       /*Send*/
-      Send(&AppData);
+//      Send(&AppData);
     }
     if (LoraMacProcessRequest == LORA_SET)
     {
