@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/Utilities/systime.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/systime.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/systime.c \
  ../../../LoRaWAN/App/inc/hw_rtc.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
  ../../../LoRaWAN/App/inc/hw_conf.h \
@@ -44,7 +44,7 @@ Middlewares/LoRaWAN/Utilities/systime.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/trace.h \
  ../../../LoRaWAN/App/inc/utilities_conf.h \
  ../../../LoRaWAN/App/inc/vcom.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/systime.h
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/systime.h
 
 ../../../LoRaWAN/App/inc/hw_rtc.h:
 
@@ -134,4 +134,4 @@ Middlewares/LoRaWAN/Utilities/systime.o: \
 
 ../../../LoRaWAN/App/inc/vcom.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/systime.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/systime.h:

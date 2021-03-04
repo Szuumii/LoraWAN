@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/Mac/Regions/RegionCommon.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Mac/region/RegionCommon.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Mac/region/RegionCommon.c \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Phy/radio.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
  ../../../LoRaWAN/App/inc/hw_conf.h \
@@ -44,7 +44,7 @@ Middlewares/LoRaWAN/Mac/Regions/RegionCommon.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/trace.h \
  ../../../LoRaWAN/App/inc/utilities_conf.h \
  ../../../LoRaWAN/App/inc/vcom.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Mac/region/RegionCommon.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Mac/region/RegionCommon.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/timer.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.h \
@@ -144,7 +144,7 @@ Middlewares/LoRaWAN/Mac/Regions/RegionCommon.o: \
 
 ../../../LoRaWAN/App/inc/vcom.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Mac/region/RegionCommon.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Mac/region/RegionCommon.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h:
 

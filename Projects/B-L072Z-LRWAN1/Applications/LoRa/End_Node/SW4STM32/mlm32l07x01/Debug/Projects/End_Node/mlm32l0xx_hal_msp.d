@@ -1,5 +1,5 @@
 Projects/End_Node/mlm32l0xx_hal_msp.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Projects/B-L072Z-LRWAN1/Applications/LoRa/End_Node/Core/src/mlm32l0xx_hal_msp.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Projects/B-L072Z-LRWAN1/Applications/LoRa/End_Node/Core/src/mlm32l0xx_hal_msp.c \
  ../../../LoRaWAN/App/inc/hw.h ../../../LoRaWAN/App/inc/hw_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \

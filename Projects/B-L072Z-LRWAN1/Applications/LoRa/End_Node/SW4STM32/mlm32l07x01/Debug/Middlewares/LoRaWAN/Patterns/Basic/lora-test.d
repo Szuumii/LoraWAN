@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/Patterns/Basic/lora-test.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.c \
  ../../../LoRaWAN/App/inc/hw.h ../../../LoRaWAN/App/inc/hw_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \
@@ -60,10 +60,10 @@ Middlewares/LoRaWAN/Patterns/Basic/lora-test.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/timer.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTest.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.h \
  ../../../LoRaWAN/App/inc/Commissioning.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.h
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.h
 
 ../../../LoRaWAN/App/inc/hw.h:
 
@@ -193,10 +193,10 @@ Middlewares/LoRaWAN/Patterns/Basic/lora-test.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTest.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.h:
 
 ../../../LoRaWAN/App/inc/Commissioning.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.h:

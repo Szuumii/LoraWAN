@@ -1,5 +1,5 @@
 Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.c \
  ../../../LoRaWAN/App/inc/hw.h ../../../LoRaWAN/App/inc/hw_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \
@@ -54,7 +54,7 @@ Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.o: \
  ../../../../../../../../Drivers/BSP/Components/sx1276/sx1276.h \
  ../../../../../../../../Drivers/BSP/Components/sx1276/sx1276Regs-Fsk.h \
  ../../../../../../../../Drivers/BSP/Components/sx1276/sx1276Regs-LoRa.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.h
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.h
 
 ../../../LoRaWAN/App/inc/hw.h:
 
@@ -172,4 +172,4 @@ Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.o: \
 
 ../../../../../../../../Drivers/BSP/Components/sx1276/sx1276Regs-LoRa.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.h:

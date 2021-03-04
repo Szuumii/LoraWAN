@@ -1,6 +1,6 @@
 B-L072Z-LRWAN1/b-l072z-lrwan1.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/B-L072Z-LRWAN1/b-l072z-lrwan1.c \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/B-L072Z-LRWAN1/b-l072z-lrwan1.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/B-L072Z-LRWAN1/b-l072z-lrwan1.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/B-L072Z-LRWAN1/b-l072z-lrwan1.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h \
@@ -37,7 +37,7 @@ B-L072Z-LRWAN1/b-l072z-lrwan1.o: \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/B-L072Z-LRWAN1/b-l072z-lrwan1.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/B-L072Z-LRWAN1/b-l072z-lrwan1.h:
 
 ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
 

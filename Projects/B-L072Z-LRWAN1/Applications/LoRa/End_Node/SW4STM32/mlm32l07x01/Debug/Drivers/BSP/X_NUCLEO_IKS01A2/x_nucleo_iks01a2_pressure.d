@@ -1,13 +1,13 @@
 Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.c \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.h \
  ../../../../../../../../Drivers/BSP/Components/lps22hb/LPS22HB_Driver_HL.h \
  ../../../../../../../../Drivers/BSP/Components/Common/pressure.h \
  ../../../../../../../../Drivers/BSP/Components/Common/sensor.h \
  ../../../../../../../../Drivers/BSP/Components/Common/component.h \
  ../../../../../../../../Drivers/BSP/Components/Common/temperature.h \
  ../../../../../../../../Drivers/BSP/Components/lps22hb/LPS22HB_Driver.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h \
@@ -48,7 +48,7 @@ Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.o: \
  ../../../../../../../../Drivers/BSP/Components/Common/magnetometer.h \
  ../../../../../../../../Drivers/BSP/Components/Common/humidity.h
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.h:
 
 ../../../../../../../../Drivers/BSP/Components/lps22hb/LPS22HB_Driver_HL.h:
 
@@ -62,7 +62,7 @@ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_
 
 ../../../../../../../../Drivers/BSP/Components/lps22hb/LPS22HB_Driver.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h:
 
 ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
 

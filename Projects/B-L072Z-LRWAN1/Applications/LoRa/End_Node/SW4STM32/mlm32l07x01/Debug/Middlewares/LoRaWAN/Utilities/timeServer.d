@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/Utilities/timeServer.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.c \
  ../../../LoRaWAN/App/inc/hw.h ../../../LoRaWAN/App/inc/hw_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \
@@ -50,8 +50,8 @@ Middlewares/LoRaWAN/Utilities/timeServer.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/util_console.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/systime.h \
  ../../../LoRaWAN/App/inc/debug.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h
 
 ../../../LoRaWAN/App/inc/hw.h:
 
@@ -161,6 +161,6 @@ Middlewares/LoRaWAN/Utilities/timeServer.o: \
 
 ../../../LoRaWAN/App/inc/debug.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h:

@@ -1,6 +1,6 @@
 Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.c \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h \
@@ -45,7 +45,7 @@ Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.o: \
  ../../../../../../../../Drivers/BSP/Components/Common/temperature.h \
  ../../../../../../../../Drivers/BSP/Components/Common/pressure.h
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h:
 
 ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
 

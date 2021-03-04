@@ -1,5 +1,5 @@
 Drivers/BSP/Components/sx1276.o: \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/Components/sx1276/sx1276.c \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/Components/sx1276/sx1276.c \
  ../../../LoRaWAN/App/inc/hw.h ../../../LoRaWAN/App/inc/hw_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \
@@ -51,9 +51,9 @@ Drivers/BSP/Components/sx1276.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/systime.h \
  ../../../LoRaWAN/App/inc/debug.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Phy/radio.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/Components/sx1276/sx1276.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/Components/sx1276/sx1276Regs-Fsk.h \
- C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/Components/sx1276/sx1276Regs-LoRa.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/Components/sx1276/sx1276.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/Components/sx1276/sx1276Regs-Fsk.h \
+ D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/Components/sx1276/sx1276Regs-LoRa.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h
 
@@ -167,11 +167,11 @@ Drivers/BSP/Components/sx1276.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Phy/radio.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/Components/sx1276/sx1276.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/Components/sx1276/sx1276.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/Components/sx1276/sx1276Regs-Fsk.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/Components/sx1276/sx1276Regs-Fsk.h:
 
-C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Drivers/BSP/Components/sx1276/sx1276Regs-LoRa.h:
+D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Drivers/BSP/Components/sx1276/sx1276Regs-LoRa.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.h:
 
