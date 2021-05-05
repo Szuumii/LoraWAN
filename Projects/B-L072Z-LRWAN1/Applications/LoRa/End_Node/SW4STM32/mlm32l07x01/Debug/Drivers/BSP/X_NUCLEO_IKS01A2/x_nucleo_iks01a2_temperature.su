@@ -1,6 +1,6 @@
-x_nucleo_iks01a2_temperature.c:133:25:BSP_HTS221_TEMPERATURE_Init	24	static
+x_nucleo_iks01a2_temperature.c:133:25:BSP_HTS221_TEMPERATURE_Init	16	static
 x_nucleo_iks01a2_temperature.c:185:25:BSP_LPS22HB_TEMPERATURE_Init	16	static
-x_nucleo_iks01a2_temperature.c:90:18:BSP_TEMPERATURE_Init	16	static
+x_nucleo_iks01a2_temperature.c:90:18:BSP_TEMPERATURE_Init	8	static
 x_nucleo_iks01a2_temperature.c:246:18:BSP_TEMPERATURE_DeInit	16	static
 x_nucleo_iks01a2_temperature.c:282:18:BSP_TEMPERATURE_Sensor_Enable	8	static
 x_nucleo_iks01a2_temperature.c:315:18:BSP_TEMPERATURE_Sensor_Disable	8	static
@@ -20,7 +20,7 @@ x_nucleo_iks01a2_temperature.c:742:18:BSP_TEMPERATURE_Get_DRDY_Status	8	static
 x_nucleo_iks01a2_temperature.c:776:18:BSP_TEMPERATURE_FIFO_Get_Fth_Status_Ext	8	static
 x_nucleo_iks01a2_temperature.c:826:18:BSP_TEMPERATURE_FIFO_Get_Full_Status_Ext	8	static
 x_nucleo_iks01a2_temperature.c:877:18:BSP_TEMPERATURE_FIFO_Get_Ovr_Status_Ext	8	static
-x_nucleo_iks01a2_temperature.c:929:18:BSP_TEMPERATURE_FIFO_Get_Data_Ext	16	static
+x_nucleo_iks01a2_temperature.c:929:18:BSP_TEMPERATURE_FIFO_Get_Data_Ext	8	static
 x_nucleo_iks01a2_temperature.c:980:18:BSP_TEMPERATURE_FIFO_Get_Num_Of_Samples_Ext	8	static
 x_nucleo_iks01a2_temperature.c:1031:18:BSP_TEMPERATURE_FIFO_Set_Mode_Ext	8	static
 x_nucleo_iks01a2_temperature.c:1077:18:BSP_TEMPERATURE_FIFO_Set_Interrupt_Ext	8	static

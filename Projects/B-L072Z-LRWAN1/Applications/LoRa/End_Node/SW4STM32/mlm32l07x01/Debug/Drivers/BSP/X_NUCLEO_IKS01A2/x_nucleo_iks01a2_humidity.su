@@ -1,4 +1,4 @@
-x_nucleo_iks01a2_humidity.c:119:25:BSP_HTS221_HUMIDITY_Init	24	static
+x_nucleo_iks01a2_humidity.c:119:25:BSP_HTS221_HUMIDITY_Init	16	static
 x_nucleo_iks01a2_humidity.c:88:18:BSP_HUMIDITY_Init	8	static
 x_nucleo_iks01a2_humidity.c:177:18:BSP_HUMIDITY_DeInit	16	static
 x_nucleo_iks01a2_humidity.c:215:18:BSP_HUMIDITY_Sensor_Enable	8	static

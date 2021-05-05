@@ -27,7 +27,7 @@
 
 //I2C_HandleTypeDef hi2c1;
 
-/* I2C init function */
+/* I2C1 init function */
 void HW_I2C1_Init(I2C_HandleTypeDef* hi2c1)
 {
 
@@ -40,10 +40,6 @@ void HW_I2C1_Init(I2C_HandleTypeDef* hi2c1)
   hi2c1->Init.OwnAddress2Masks = I2C_OA2_NOMASK;
   hi2c1->Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
   hi2c1->Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
-
-
-  __HAL_RCC_I2C1_CLK_ENABLE();
-
   if (HAL_I2C_Init(hi2c1) != HAL_OK)
   {
     Error_Handler();
@@ -60,6 +56,7 @@ void HW_I2C1_Init(I2C_HandleTypeDef* hi2c1)
   {
     Error_Handler();
   }
+
 }
 
 void HAL_I2C_MspInit(I2C_HandleTypeDef* i2cHandle)

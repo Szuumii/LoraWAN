@@ -1,1 +1,2 @@
-LoRaMacAdr.c:123:6:LoRaMacAdrCalcNext	64	static
+LoRaMacAdr.c:37:13:CalcNextV10X	64	static
+LoRaMacAdr.c:123:6:LoRaMacAdrCalcNext	8	static
