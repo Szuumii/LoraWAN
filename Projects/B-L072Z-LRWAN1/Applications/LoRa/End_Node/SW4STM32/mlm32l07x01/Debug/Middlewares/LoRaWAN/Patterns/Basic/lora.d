@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/Patterns/Basic/lora.o: \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.c \
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.c \
  ../../../LoRaWAN/App/inc/hw.h ../../../LoRaWAN/App/inc/hw_conf.h \
  ../../../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../../../Core/inc/stm32l0xx_hal_conf.h \
@@ -59,10 +59,10 @@ Middlewares/LoRaWAN/Patterns/Basic/lora.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/timer.h \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.h \
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.h \
  ../../../LoRaWAN/App/inc/Commissioning.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h \
- D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.h \
+ C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTest.h
 
 ../../../LoRaWAN/App/inc/hw.h:
@@ -191,12 +191,12 @@ Middlewares/LoRaWAN/Patterns/Basic/lora.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/timer.h:
 
-D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.h:
+C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora.h:
 
 ../../../LoRaWAN/App/inc/Commissioning.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/region/Region.h:
 
-D:/FiberTeam/STM32CubeExpansion_LRWAN_V1.3.1/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.h:
+C:/Users/jakub/Desktop/Git\ Repos/LoraWAN/Middlewares/Third_Party/LoRaWAN/Patterns/Basic/lora-test.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTest.h:

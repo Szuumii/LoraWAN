@@ -29,7 +29,6 @@
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 #define APP_DATA_BUF_SIZE 8
-#define NB_BUFSIZE 5
 #define LORAWAN_MAX_BAT   254
 
 /*!
@@ -106,6 +105,8 @@ static void LoraMacProcessNotify(void);
 
 /* Private variables ---------------------------------------------------------*/
 I2C_HandleTypeDef  hi2c1;
+const uint16_t command = 0x100F;
+uint16_t sensor_data;
 /* load Main call backs structure*/
 static LoRaMainCallback_t LoRaMainCallbacks = { LORA_GetBatteryLevel,
                                                 HW_GetTemperatureLevel,
@@ -119,8 +120,6 @@ static LoRaMainCallback_t LoRaMainCallbacks = { LORA_GetBatteryLevel,
                                               };
 LoraFlagStatus LoraMacProcessRequest = LORA_RESET;
 LoraFlagStatus AppProcessRequest = LORA_RESET;
-const uint8_t numbers[NB_BUFSIZE]={0,1,2,3,4};
-uint16_t nbidx = 0;
 /*!
  * Specifies the state of the application LED
  */
@@ -145,6 +144,12 @@ static  LoRaParam_t LoRaParamInit = {LORAWAN_ADR_STATE,
 
 /* Private functions ---------------------------------------------------------*/
 
+uint16_t Reverse16(uint16_t value)
+{
+    return (((value & 0x00FF) << 8) |
+            ((value & 0xFF00) >> 8));
+}
+
 /**
   * @brief  Main program
   * @param  None
@@ -163,6 +168,7 @@ int main(void)
 
   /* Configure the hardware*/
   HW_Init();
+  HW_I2C1_Init(&hi2c1);
 
   /* USER CODE BEGIN 1 */
   /* USER CODE END 1 */
@@ -170,10 +176,10 @@ int main(void)
   /*Disbale Stand-by mode*/
   LPM_SetOffMode(LPM_APPLI_Id, LPM_Disable);
 
-  /*
+
   PRINTF("APP_VERSION= %02X.%02X.%02X.%02X\r\n", (uint8_t)(__APP_VERSION >> 24), (uint8_t)(__APP_VERSION >> 16), (uint8_t)(__APP_VERSION >> 8), (uint8_t)__APP_VERSION);
   PRINTF("MAC_VERSION= %02X.%02X.%02X.%02X\r\n", (uint8_t)(__LORA_MAC_VERSION >> 24), (uint8_t)(__LORA_MAC_VERSION >> 16), (uint8_t)(__LORA_MAC_VERSION >> 8), (uint8_t)__LORA_MAC_VERSION);
-  */
+
 
   /* Configure the Lora Stack*/
   LORA_Init(&LoRaMainCallbacks, &LoRaParamInit);
@@ -188,18 +194,14 @@ int main(void)
     {
       /*reset notification flag*/
       AppProcessRequest = LORA_RESET;
-      uint16_t command = 0x100F;
-	  uint16_t sensor_data;
 
-	  int counter = 0;
 	  HAL_I2C_Master_Transmit(&hi2c1, 0x36<<1, &command, sizeof(command), HAL_MAX_DELAY);
-		while(counter < 6000)
-		{
-			counter++;
-		}
-		HAL_I2C_Master_Receive(&hi2c1, 0x36<<1 | 0x01, &sensor_data, sizeof(sensor_data), HAL_MAX_DELAY);
-      /*Send*/
-//      Send(&AppData);
+	  HAL_Delay(4);
+	  HAL_I2C_Master_Receive(&hi2c1, 0x36<<1 | 0x01, &sensor_data, sizeof(sensor_data), HAL_MAX_DELAY);
+	  sensor_data = Reverse16(sensor_data);
+	  PRINTF("\nSensor Data: %d\n\n", sensor_data);
+	  /*Send*/
+      Send(&AppData);
     }
     if (LoraMacProcessRequest == LORA_SET)
     {
@@ -252,11 +254,9 @@ static void Send(lora_AppData_t *AppData)
 
   AppData->Port = LORAWAN_APP_PORT;
 
-  AppData->BuffSize = snprintf((char *)AppData->Buff, LORAWAN_APP_DATA_BUFF_SIZE,"%d", numbers[nbidx]);
-  if(++nbidx == NB_BUFSIZE)
-	  nbidx = 0;
+  AppData->BuffSize = snprintf((char *)AppData->Buff, LORAWAN_APP_DATA_BUFF_SIZE,"%d", sensor_data);
 
-  PRINTF("\nNumber sent: %d\n\n", numbers[nbidx]);
+  PRINTF("\nNumber sent: %d\n\n", sensor_data);
   LORA_send(AppData, LORAWAN_DEFAULT_CONFIRM_MSG_STATE);
 
   /* USER CODE END 3 */
